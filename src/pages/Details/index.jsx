@@ -5,13 +5,14 @@ import { getDetails } from '../../services/request'
 import NavBackBtn from '../../components/NavBackBtn'
 import LoadingMovies from '../../components/LoadingMovies'
 import InfoMovie from '../../components/InfoMovie'
+import posterNotFound from '../../assets/poster_not_found.png'
 import styles from './index.module.scss'
 
 
 
 
 const MovieDetails = () => {
-    const { imdbID } = useParams() 
+    const { imdbID } = useParams()
     const [movie, setMovie] = useState(null)
     const [loading, setIsLoading] = useState([])
 
@@ -37,7 +38,8 @@ const MovieDetails = () => {
                     <InfoMovie movie={movie} />
 
                     <div className={styles['poster']}>
-                        <img src={movie.Poster} alt={movie.Title} />
+                        {movie.Poster == "N/A" ? <img src={posterNotFound} alt={movie.Title} /> 
+                        : <img src={movie.Poster} alt={movie.Title} />}
                     </div>
                 </div>
             </div>
