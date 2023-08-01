@@ -53,6 +53,6 @@ O Teste Newtail React Movie é um buscador de filmes que consome a API OMDb (Ope
 
 O projeto foi desenvolvido utilizando a biblioteca React, que facilita a criação de interfaces de usuário interativas e reativas. A API OMDb fornece os dados dos filmes, como títulos, ano de lançamento, classificação, elenco, entre outros.
 
-O projeto é composto por vários componentes React, como o componente de busca, o componente de exibição dos filmes encontrados, o componente de detalhes do filme, entre outros. Além disso, o projeto inclui testes automatizados para garantir o correto funcionamento das funcionalidades e aumentar a confiabilidade do código.
+O projeto é composto por vários componentes React, como o componente de busca, o componente de exibição dos filmes encontrados, o componente de detalhes do filme, entre outros. Além disso, o projeto inclui testes unitários para garantir o correto funcionamento das funcionalidades e aumentar a confiabilidade do código.
 
 Este projeto é um exemplo de como criar uma aplicação web simples com React, consumindo dados de uma API externa. É um ótimo ponto de partida para quem está aprendendo React e deseja praticar a criação de interfaces de usuário e a integração com APIs.

@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom'
-import { FaRegHeart } from 'react-icons/fa';
 
-import styles from './index.module.scss'
-import posterNotFound from '../../assets/poster_not_found.png'
 import LikeMovie from '../LikeMovie';
+import posterNotFound from '../../assets/poster_not_found.png'
+import styles from './index.module.scss'
+
 
 const CardMovie = ({ movie }) => {
     const navigateTo = useNavigate();

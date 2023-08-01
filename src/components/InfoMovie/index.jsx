@@ -1,8 +1,6 @@
-import { FaHeart, FaRegHeart } from 'react-icons/fa'
-
+import LikeMovie from '../LikeMovie';
 import percIcon from '../../assets/pecincon.svg'
 import styles from './index.module.scss'
-import LikeMovie from '../LikeMovie';
 
 
 const InfoMovie = ({ movie }) => {

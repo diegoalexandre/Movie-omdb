@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './index.module.scss'
 import loadingMovies from '../../assets/loader.gif'
 

@@ -1,7 +1,7 @@
 import { FaHeart, FaRegHeart } from 'react-icons/fa'
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
-import { getLocalStorage, setLocalStorage } from '../../services/request';
+import { getLocalStorage, setLocalStorage } from '../../services/request'
 
 
 const LikeMovie = ({ movie }) => {

@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom'
 import { getDetails } from '../../services/request'
 import NavBackBtn from '../../components/NavBackBtn'
 import LoadingMovies from '../../components/LoadingMovies'
-
-import styles from './index.module.scss'
 import InfoMovie from '../../components/InfoMovie'
+import styles from './index.module.scss'
+
 
 
 
